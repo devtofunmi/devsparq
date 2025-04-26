@@ -97,7 +97,7 @@ export default function AuthPage() {
       <main className="min-h-screen flex flex-col md:flex-row bg-[#0F172A]">
         <Toaster />
         {/* Left side (confirm email) */}
-        <div className="w-full md:w-3/5 bg-white text-gray-800 flex flex-col justify items-left px-20 py-20">
+        <div className="w-full md:w-3/5 bg-white text-gray-800 flex flex-col justify items-left px-10 md:px-20 py-20">
           <div className="w-full max-w-md ">
             <h1 className="text-2xl font-bold mb-4">Confirm Your Email</h1>
             <p className="text-gray-800 mb-6">
@@ -126,7 +126,7 @@ export default function AuthPage() {
         </div>
 
         {/* Right side (info) */}
-        <div className="flex w-full md:w-2/5 flex-col bg-[#0F172A] text-white px-10 py-20">
+        <div className="flex w-full md:w-2/5 flex-col bg-[#0F172A] text-white  px-10 py-20">
           <h2 className="text-3xl font-bold mb-4">Welcome to DevSparq</h2>
           <p className="text-gray-300 mb-8">
             DevSparq helps indie developers discover real-world project inspirations,
@@ -149,7 +149,7 @@ export default function AuthPage() {
       <Toaster />
       
       {/* Left side (form) */}
-      <div className="w-full md:w-3/5 bg-white text-gray-800 flex flex-col justify items-left px-20 py-20">
+      <div className="w-full md:w-3/5 bg-white text-gray-800 flex flex-col justify items-left px-10 md:px-20 py-20">
         <h1 className="text-3xl font-semibold">
           {isLogin ? 'Welcome back!' : 'Welcome'}
         </h1>
