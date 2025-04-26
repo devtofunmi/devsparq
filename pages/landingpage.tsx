@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
+import Link from 'next/link';
 
 export default function landingpage() {
 
@@ -19,9 +20,12 @@ export default function landingpage() {
         <p className="mt-6 max-w-2xl text-lg text-gray-300">
           DevSparq helps indie developers find similar projects to what they're building, get inspired by real-world UI examples, and generate stunning custom SVG backgrounds all in one place.
         </p>
-        <button className="mt-10 cursor-pointer px-6 py-3 bg-gradient-to-r from-[#6E00FF] to-[#0096FF] text-white rounded-2xl text-lg font-medium shadow-lg hover:opacity-90 transition">
+        <Link href="/findsimiliarprojects">
+        <button   className="mt-10 cursor-pointer px-6 py-3 bg-gradient-to-r from-[#6E00FF] to-[#0096FF] text-white rounded-2xl text-lg font-medium shadow-lg hover:opacity-90 transition">
           Start Exploring
         </button>
+        </Link>
+        
       </section>
 
      

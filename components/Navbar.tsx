@@ -67,7 +67,7 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={handleLogout}
-                  className="px-4 py-2 bg-[#6E00FF] text-white rounded-lg"
+                  className="px-4 py-2 bg-[#6E00FF] cursor-pointer text-white rounded-lg"
                 >
                   Log Out
                 </button>
@@ -75,7 +75,7 @@ export default function Navbar() {
             </>
           ) : (
             <li>
-              <a href="/auth" className="hover:text-[#6E00FF] transition">
+              <a href="/auth" className="hover:text-[#6E00FF] cursor-pointer transition">
                 Log In
               </a>
             </li>
@@ -116,7 +116,7 @@ export default function Navbar() {
               </a>
               <button
                 onClick={handleLogout}
-                className="w-full text-left py-2 text-red-500 hover:text-red-400 transition"
+                className="w-full text-left cursor-pointer py-2 text-red-500 hover:text-red-400 transition"
               >
                 Log Out
               </button>
