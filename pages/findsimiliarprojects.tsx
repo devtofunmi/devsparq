@@ -55,7 +55,7 @@ const FindSimilarProjects: React.FC = () => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search for similar projects..."
-            className="px-6 py-3 rounded-lg text-black"
+            className="px-6 py-3 border-white border-[1px] rounded-lg text-white"
           />
         </div>
 
