@@ -14,7 +14,7 @@ export default function landingpage() {
 
      
       <section className="flex flex-col items-center justify-center text-center py-24 px-6">
-        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#6E00FF] to-[#0096FF] bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#6E00FF] to-[#0096FF] bg-clip-text text-transparent mt-10">
           Find what others built. Create something better.
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-gray-300">
